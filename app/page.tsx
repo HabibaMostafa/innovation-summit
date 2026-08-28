@@ -117,7 +117,7 @@ export default function Home() {
             </p>
             <p className="mission-p2 reveal">
               From AI and compute, to critical materials and energy, to
-              sovereignty tech, to biotech &mdash; we&rsquo;re bringing together
+              sovereignty tech, to biotech, we&rsquo;re bringing together
               the founders who can build in these space and the investors and
               experts who can back them up.
             </p>
@@ -135,30 +135,151 @@ export default function Home() {
           <div className="wrap">
             <div className="pillar-grid reveal">
               <div className="pillar" style={{ ["--pillar-color" as string]: "#a67a8a" }}>
-                <span className="idx">PANEL 01</span>
-                <div className="node" />
+                <span className="idx">01</span>
+                <span className="tag">Panel 01</span>
                 <h3>Disruptive Frontiers: AI, Computing and Beyond</h3>
               </div>
               <div className="pillar" style={{ ["--pillar-color" as string]: "#8f6a86" }}>
-                <span className="idx">PANEL 02</span>
-                <div className="node" />
+                <span className="idx">02</span>
+                <span className="tag">Panel 02</span>
                 <h3>
-                  Physical Infrastructure: Hard Assets &mdash; Energy, Materials
+                  Physical Infrastructure: Hard Assets in Energy, Materials
                   and Mining as Critical Bottlenecks
                 </h3>
               </div>
               <div className="pillar" style={{ ["--pillar-color" as string]: "#9c7a94" }}>
-                <span className="idx">PANEL 03</span>
-                <div className="node" />
+                <span className="idx">03</span>
+                <span className="tag">Panel 03</span>
                 <h3>
                   Emerging Innovation: Regulatory, Space, Cybersecurity and
                   Sovereignty
                 </h3>
               </div>
               <div className="pillar" style={{ ["--pillar-color" as string]: "#8a5a78" }}>
-                <span className="idx">PANEL 04</span>
-                <div className="node" />
+                <span className="idx">04</span>
+                <span className="tag">Panel 04</span>
                 <h3>Beyond Healthtech: Biotech, Genetics and Longevity</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* WORKSHOPS */}
+        <section className="workshops">
+          <div className="wrap">
+            <div className="section-head reveal">
+              <h2>The workshops</h2>
+              <span className="num">02 / WORKSHOPS</span>
+            </div>
+          </div>
+          <div className="wrap">
+            <div className="workshop-grid reveal">
+              <div className="workshop-card">
+                <div className="workshop-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="2.5"
+                      y="7"
+                      width="19"
+                      height="10"
+                      rx="1.5"
+                      stroke="#73405a"
+                      strokeWidth="1.6"
+                    />
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="2.3"
+                      stroke="#73405a"
+                      strokeWidth="1.4"
+                    />
+                    <path
+                      d="M5.5 9.2h.01M18.5 14.8h.01"
+                      stroke="#73405a"
+                      strokeWidth="1.8"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                </div>
+                <span className="tag">Workshop 01</span>
+                <h3>The Angel Investing Playbook</h3>
+                <p className="hook">
+                  &ldquo;Would you write this cheque?&rdquo; Step into the shoes
+                  of an angel investor and evaluate real-world startup
+                  opportunities. Fully interactive.
+                </p>
+                <p className="takeaway">
+                  <b>The challenge:</b> Invest, pass, or negotiate, then
+                  defend your decision.
+                </p>
+              </div>
+              <div className="workshop-card">
+                <div className="workshop-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14.5 3.5a4 4 0 0 0-5.4 4.9L3 14.5V19h4.5l6.1-6.1a4 4 0 0 0 4.9-5.4l-2.6 2.6-2-2 2.6-2.6Z"
+                      stroke="#73405a"
+                      strokeWidth="1.6"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </div>
+                <span className="tag">Workshop 02</span>
+                <h3>The AI Builder Lab (Claude and Replit)</h3>
+                <p className="hook">
+                  Idea to product in 90 minutes. Don&rsquo;t just build faster.
+                  Build with proof.
+                </p>
+                <p className="takeaway">
+                  <b>The challenge:</b> Bring a problem. Leave with a tested
+                  methodology.
+                </p>
+              </div>
+              <div className="workshop-card">
+                <div className="workshop-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7 3h7l4 4v14H7V3Z"
+                      stroke="#73405a"
+                      strokeWidth="1.6"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M14 3v4h4"
+                      stroke="#73405a"
+                      strokeWidth="1.6"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M9.5 9h2.5M9.5 12h5M9.5 15h5"
+                      stroke="#73405a"
+                      strokeWidth="1.4"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                </div>
+                <span className="tag">Workshop 03</span>
+                <h3>Behind the Term Sheet</h3>
+                <p className="hook">
+                  Negotiation, leverage and lessons learnt: an honest
+                  look at fundraising with exited founders.
+                </p>
+                <p className="takeaway">
+                  <b>Takeaway:</b> Practical lessons you won&rsquo;t find in
+                  blog posts or startup Twitter.
+                </p>
               </div>
             </div>
           </div>
@@ -169,7 +290,7 @@ export default function Home() {
           <div className="wrap">
             <div className="section-head reveal">
               <h2>Why attend</h2>
-              <span className="num">02 / VALUE</span>
+              <span className="num">03 / VALUE</span>
             </div>
           </div>
           <div className="wrap">
@@ -194,7 +315,7 @@ export default function Home() {
                 <span className="tag">No fluff</span>
                 <p>
                   Watch founders pitch live in a{" "}
-                  <b>5-minute lightning round</b> &mdash; hard stop, real
+                  <b>5-minute lightning round</b>: hard stop, real
                   feedback, no filler.
                 </p>
               </div>
@@ -214,7 +335,7 @@ export default function Home() {
           <div className="wrap">
             <div className="section-head reveal">
               <h2>Who&rsquo;s in the room</h2>
-              <span className="num">03 / AUDIENCE</span>
+              <span className="num">04 / AUDIENCE</span>
             </div>
             <div className="who-grid reveal">
               <div className="who-card">
@@ -396,7 +517,7 @@ export default function Home() {
                 <span className="t-time">10:30 &ndash; 11:00 AM</span>
                 <div className="t-body">
                   <h4>
-                    Panel 1: Disruptive Frontiers &mdash; Beyond AI &amp;
+                    Panel 1: Disruptive Frontiers, Beyond AI &amp;
                     Computing
                   </h4>
                 </div>
@@ -405,7 +526,7 @@ export default function Home() {
                 <span className="t-time">11:00 &ndash; 11:30 AM</span>
                 <div className="t-body">
                   <h4>
-                    Panel 2: Physical Infrastructure &mdash; Energy, Materials
+                    Panel 2: Physical Infrastructure, Energy, Materials
                     and Mining as Critical Bottlenecks
                   </h4>
                 </div>
@@ -420,7 +541,7 @@ export default function Home() {
                 <span className="t-time">12:30 &ndash; 1:00 PM</span>
                 <div className="t-body">
                   <h4>
-                    Panel 3: Emerging Innovation &mdash; Space, Regulatory &amp;
+                    Panel 3: Emerging Innovation, Space, Regulatory &amp;
                     Sovereignty Technologies
                   </h4>
                 </div>
@@ -429,7 +550,7 @@ export default function Home() {
                 <span className="t-time">1:00 &ndash; 1:30 PM</span>
                 <div className="t-body">
                   <h4>
-                    Panel 4: Beyond Healthtech &mdash; Biotech, Genetics and
+                    Panel 4: Beyond Healthtech, Biotech, Genetics and
                     Longevity
                   </h4>
                 </div>
@@ -439,9 +560,9 @@ export default function Home() {
                 <div className="t-body">
                   <h4>Workshop Sessions</h4>
                   <div className="t-sub">
-                    <div>Angel Investing 101</div>
-                    <div>Building with AI</div>
-                    <div>Negotiation and Leverage in the Founder Journey</div>
+                    <div>The Angel Investing Playbook</div>
+                    <div>The AI Builder Lab (Claude and Replit)</div>
+                    <div>Behind the Term Sheet</div>
                   </div>
                 </div>
               </div>
@@ -460,7 +581,7 @@ export default function Home() {
               <div className="t-item highlight">
                 <span className="t-time">4:30 &ndash; 5:45 PM</span>
                 <div className="t-body">
-                  <h4>Lightning Round Pitches &mdash; Founders in Action</h4>
+                  <h4>Lightning Round Pitches: Founders in Action</h4>
                 </div>
               </div>
               <div className="t-item">
