@@ -205,12 +205,36 @@ export default function Home() {
           </div>
         </section>
 
+        {/* SPEAKERS */}
+        <section className="speakers">
+          <div className="wrap">
+            <div className="section-head reveal">
+              <h2>Speakers</h2>
+              <span className="num">01 / SPEAKERS</span>
+            </div>
+          </div>
+          <div className="speaker-marquee reveal">
+            <div className="speaker-track">
+              {[...speakers, ...speakers].map((s, i) => (
+                <div className="speaker-card" key={`${s.name}-${i}`}>
+                  <div className="speaker-photo">
+                    <Image src={s.image} alt={s.name} width={96} height={96} />
+                  </div>
+                  <h3>{s.name}</h3>
+                  <p className="role">{s.title}</p>
+                  {s.company && <p className="company">{s.company}</p>}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* PILLARS */}
         <section className="pillars">
           <div className="wrap">
             <div className="section-head reveal">
               <h2>The four fronts</h2>
-              <span className="num">01 / PANELS</span>
+              <span className="num">02 / PANELS</span>
             </div>
           </div>
           <div className="wrap">
@@ -250,7 +274,7 @@ export default function Home() {
           <div className="wrap">
             <div className="section-head reveal">
               <h2>The workshops</h2>
-              <span className="num">02 / WORKSHOPS</span>
+              <span className="num">03 / WORKSHOPS</span>
             </div>
           </div>
           <div className="wrap">
@@ -371,7 +395,7 @@ export default function Home() {
           <div className="wrap">
             <div className="section-head reveal">
               <h2>Why attend</h2>
-              <span className="num">03 / VALUE</span>
+              <span className="num">04 / VALUE</span>
             </div>
           </div>
           <div className="wrap">
@@ -416,7 +440,7 @@ export default function Home() {
           <div className="wrap">
             <div className="section-head reveal">
               <h2>Who&rsquo;s in the room</h2>
-              <span className="num">04 / AUDIENCE</span>
+              <span className="num">05 / AUDIENCE</span>
             </div>
             <div className="who-grid reveal">
               <div className="who-card">
@@ -570,30 +594,6 @@ export default function Home() {
                 </div>
                 <h3>Canada&rsquo;s tech ecosystem</h3>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* SPEAKERS */}
-        <section className="speakers">
-          <div className="wrap">
-            <div className="section-head reveal">
-              <h2>Speakers</h2>
-              <span className="num">05 / SPEAKERS</span>
-            </div>
-          </div>
-          <div className="speaker-marquee reveal">
-            <div className="speaker-track">
-              {[...speakers, ...speakers].map((s, i) => (
-                <div className="speaker-card" key={`${s.name}-${i}`}>
-                  <div className="speaker-photo">
-                    <Image src={s.image} alt={s.name} width={96} height={96} />
-                  </div>
-                  <h3>{s.name}</h3>
-                  <p className="role">{s.title}</p>
-                  {s.company && <p className="company">{s.company}</p>}
-                </div>
-              ))}
             </div>
           </div>
         </section>
