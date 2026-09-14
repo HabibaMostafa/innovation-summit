@@ -1,90 +1,9 @@
 import Image from "next/image";
 import RevealObserver from "@/components/RevealObserver";
+import { speakers } from "@/components/speakerData";
 
 const REGISTER_URL =
   "https://www.eventbrite.ca/e/max-innovation-summit-tickets-1994514499559";
-
-const speakers = [
-  {
-    name: "Bilal Khan",
-    title: "General Partner",
-    company: "Intuition Capital",
-    image: "/speakers/bilal-khan.jpg",
-  },
-  {
-    name: "Aiman Khan",
-    title: "VP, Engineering",
-    company: "AtkinsRéalis",
-    image: "/speakers/aiman-khan.png",
-  },
-  {
-    name: "Taha Mubashir",
-    title: "Partner",
-    company: "Inovia Capital",
-    image: "/speakers/taha-mubashir.png",
-  },
-  {
-    name: "Sami Khoury",
-    title: "Senior Official for Cyber Security",
-    company: "Government of Canada",
-    image: "/speakers/sami-khoury.jpg",
-  },
-  {
-    name: "Amin Lalji",
-    title: "Strategic Advisor",
-    company: "Wildeboer Dellelce LLP",
-    image: "/speakers/amin-lalji.jpg",
-  },
-  {
-    name: "Kazim Agha",
-    title: "Partner",
-    company: "Aird & Berlis LLP",
-    image: "/speakers/kazim-agha.jpg",
-  },
-  {
-    name: "Felicia Parker",
-    title: "Managing Partner",
-    company: "Ventioneers",
-    image: "/speakers/felicia-parker.png",
-  },
-  {
-    name: "Danish Yusuf",
-    title: "CEO and Founder",
-    company: "Zensurance",
-    image: "/speakers/danish-yusuf.jpeg",
-  },
-  {
-    name: "Mohamed Soliman",
-    title: "Managing Partner",
-    company: "Ventioneers",
-    image: "/speakers/mohamed-soliman.png",
-  },
-  {
-    name: "Dr. Suleiman Furmli",
-    title: "Investor + Physician",
-    company: "",
-    image: "/speakers/suleiman-furmli.jpg",
-  },
-  {
-    name: "Amin Jagani",
-    title: "Managing Director",
-    company: "HYGEIA",
-    image: "/speakers/amin-jagani.jpg",
-  },
-  {
-    name: "Aaqib Azeem",
-    title: "Global AI & ML Partner Lead",
-    company: "Google",
-    image: "/speakers/aaqib-azeem.jpeg",
-  },
-  {
-    name: "Minaz Merali",
-    title: "VP, Z Cyber Security",
-    company: "IBM",
-    image: "/speakers/minaz-merali.jpeg",
-  },
-];
-
 export default function Home() {
   return (
     <>
@@ -107,7 +26,10 @@ export default function Home() {
           <div className="nav-mark">
             MAX<span>Pitch</span> Innovation Summit
           </div>
-          <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+          <div className="nav-links">
+            <a className="nav-link" href="/speakers">
+              Speakers
+            </a>
             <a
               className="nav-cta"
               href={REGISTER_URL}

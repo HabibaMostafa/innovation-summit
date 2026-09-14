@@ -199,6 +199,18 @@
     white-space:nowrap;
   }
   .nav-cta:hover{background:var(--ink); color:var(--plum-deep);}
+  .nav-links{display:flex; align-items:center; gap:18px;}
+  .nav-link{
+    font-family:'Poppins',sans-serif;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:var(--ink-dim);
+    transition:color .25s ease;
+  }
+  .nav-link:hover,.nav-link.active{color:var(--ink);}
 
   /* ===== HERO ===== */
   .hero{
@@ -567,6 +579,37 @@
     margin-top:4px;
   }
 
+  /* ===== SPEAKERS DIRECTORY ===== */
+  .speakers-page{min-height:100vh; position:relative; overflow:hidden;}
+  .speakers-page nav{position:sticky;}
+  .speakers-page-hero{padding:100px 0 76px;}
+  .back-link{
+    display:inline-block;
+    margin-bottom:54px;
+    color:var(--ink-dim);
+    font-family:'Poppins',sans-serif;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    text-decoration:none;
+    transition:color .2s ease;
+  }
+  .back-link:hover{color:var(--ink);}
+  .speakers-page-hero h1{font-size:clamp(54px,9vw,118px); max-width:900px; margin-top:18px;}
+  .speakers-page-hero h1 span{color:var(--gold-bright);}
+  .speakers-page-intro{max-width:560px; color:var(--ink-dim); font-size:17px; line-height:1.65; margin-top:28px;}
+  .speaker-directory{padding:30px 0 100px;}
+  .speaker-grid{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:64px 28px;}
+  .directory-card{min-width:0;}
+  .directory-photo{position:relative; aspect-ratio:1; overflow:hidden; background:rgba(255,255,255,.09); margin-bottom:20px;}
+  .directory-photo::after{content:''; position:absolute; inset:0; border:1px solid rgba(246,243,234,.23); pointer-events:none;}
+  .directory-photo img{object-fit:cover; transition:transform .5s ease;}
+  .directory-card:hover .directory-photo img{transform:scale(1.045);}
+  .directory-card h2{font-size:19px; text-transform:none; line-height:1.15; color:var(--ink);}
+  .directory-role{font-size:13px; line-height:1.45; color:var(--ink-dim); margin-top:8px;}
+  .directory-company{font-family:'Poppins',sans-serif; font-size:11px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--gold-bright); margin-top:5px;}
+
   /* ===== AGENDA (timeline) ===== */
   .timeline{
     position:relative;
@@ -666,6 +709,7 @@
   }
 
   @media (max-width: 900px){
+    .speaker-grid{grid-template-columns:repeat(2,minmax(0,1fr)); gap:48px 20px;}
     .pillar-grid{grid-template-columns:repeat(2,1fr);}
     .who-grid{grid-template-columns:1fr;}
     .why-grid{grid-template-columns:1fr;}
@@ -673,4 +717,13 @@
     .timeline{padding-left:34px;}
     .t-item::before{left:-28px;}
     .timeline::before{left:12px;}
+  }
+  @media (max-width: 600px){
+    nav .wrap{height:62px; padding-left:20px; padding-right:20px;}
+    .nav-links{gap:12px;}
+    .nav-link{font-size:10px;}
+    .nav-cta{font-size:10px; padding:8px 12px;}
+    .speakers-page-hero{padding:64px 0 48px;}
+    .back-link{margin-bottom:42px;}
+    .speaker-directory{padding-top:10px;}
   }

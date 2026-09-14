@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Speaker photo coming soon</title>
+  <desc id="desc">Placeholder portrait for a speaker</desc>
+  <rect width="800" height="800" fill="#59634f"/>
+  <circle cx="400" cy="300" r="118" fill="#c9a867" opacity=".8"/>
+  <path d="M180 710c22-176 112-252 220-252s198 76 220 252" fill="#c9a867" opacity=".8"/>
+  <text x="400" y="110" fill="#f6f3ea" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" letter-spacing="4">PHOTO COMING SOON</text>
+</svg>
