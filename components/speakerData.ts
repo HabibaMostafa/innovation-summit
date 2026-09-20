@@ -3,22 +3,23 @@ export type Speaker = {
   title: string;
   company: string;
   image: string;
+  bio: string;
 };
 
 export const speakers: Speaker[] = [
-  { name: "Bilal Khan", title: "General Partner", company: "Intuition Capital", image: "/speakers/bilal-khan.jpg" },
-  { name: "Aiman Khan", title: "VP, Engineering", company: "AtkinsRéalis", image: "/speakers/aiman-khan.png" },
-  { name: "Taha Mubashir", title: "Partner", company: "Inovia Capital", image: "/speakers/taha-mubashir.png" },
-  { name: "Sami Khoury", title: "Senior Official for Cyber Security", company: "Government of Canada", image: "/speakers/sami-khoury.jpg" },
-  { name: "Amin Lalji", title: "Strategic Advisor", company: "Wildeboer Dellelce LLP", image: "/speakers/amin-lalji.jpg" },
-  { name: "Kazim Agha", title: "Partner", company: "Aird & Berlis LLP", image: "/speakers/kazim-agha.jpg" },
-  { name: "Felicia Parker", title: "Managing Partner", company: "Ventioneers", image: "/speakers/felicia-parker.png" },
-  { name: "Danish Yusuf", title: "CEO and Founder", company: "Zensurance", image: "/speakers/danish-yusuf.jpeg" },
-  { name: "Mohamed Soliman", title: "Managing Partner", company: "Ventioneers", image: "/speakers/mohamed-soliman.png" },
-  { name: "Dr. Suleiman Furmli", title: "Investor + Physician", company: "", image: "/speakers/suleiman-furmli.jpg" },
-  { name: "Amin Jagani", title: "Managing Director", company: "HYGEIA", image: "/speakers/amin-jagani.jpg" },
-  { name: "Aaqib Azeem", title: "Global AI & ML Partner Lead", company: "Google", image: "/speakers/aaqib-azeem.jpeg" },
-  { name: "Minaz Merali", title: "VP, Z Cyber Security", company: "IBM", image: "/speakers/minaz-merali.jpeg" },
-  { name: "Zaeem Mirza", title: "Founder + Managing Partner", company: "Ummah1", image: "/speakers/Zaeem Mirza.png" },
-  { name: "Louise Pichette", title: "Director", company: "Health Sciences, MaRS Discovery District", image: "/speakers/Louise Pichette.jpg" },
+  { name: "Bilal Khan", title: "General Partner", company: "Intuition Capital", image: "/speakers/bilal-khan.jpg", bio: "Bilal brings an investor's perspective to the ideas and teams shaping the next wave of innovation. At Intuition Capital, he works at the intersection of ambitious founders, emerging markets and long-term company building." },
+  { name: "Aiman Khan", title: "VP, Engineering", company: "AtkinsRéalis", image: "/speakers/aiman-khan.png", bio: "Aiman leads engineering with a focus on turning complex challenges into resilient, practical systems. Her perspective connects technical excellence, multidisciplinary teams and the infrastructure decisions that shape how communities grow." },
+  { name: "Taha Mubashir", title: "Partner", company: "Inovia Capital", image: "/speakers/taha-mubashir.png", bio: "Taha works alongside technology companies as they navigate growth, strategy and scale. He brings a venture capital lens to the conversations founders face when moving from early momentum to enduring impact." },
+  { name: "Sami Khoury", title: "Senior Official for Cyber Security", company: "Government of Canada", image: "/speakers/sami-khoury.jpg", bio: "Sami brings a national perspective to cyber security, digital resilience and public trust. His work focuses on the evolving risks facing Canadian organizations and the collaboration required to meet them." },
+  { name: "Amin Lalji", title: "Strategic Advisor", company: "Wildeboer Dellelce LLP", image: "/speakers/amin-lalji.jpg", bio: "Amin advises leaders working through high-stakes strategic decisions. He brings a thoughtful perspective on governance, growth and the relationships that help organizations move from opportunity to durable value." },
+  { name: "Kazim Agha", title: "Partner", company: "Aird & Berlis LLP", image: "/speakers/kazim-agha.jpg", bio: "Kazim works with businesses and their leaders at the point where legal strategy meets commercial ambition. He offers a practical view of the structures, decisions and partnerships behind sustainable growth." },
+  { name: "Felicia Parker", title: "Managing Partner", company: "Ventioneers", image: "/speakers/felicia-parker.png", bio: "Felicia helps lead Ventioneers with a focus on translating bold ideas into meaningful ventures. Her work brings together strategy, execution and an entrepreneurial view of how innovation creates lasting value." },
+  { name: "Danish Yusuf", title: "CEO and Founder", company: "Zensurance", image: "/speakers/danish-yusuf.jpeg", bio: "Danish is the founder and CEO of Zensurance, where he leads the work of simplifying insurance for Canadian businesses. He brings a founder's perspective on building technology, earning trust and scaling a customer-focused company." },
+  { name: "Mohamed Soliman", title: "Managing Partner", company: "Ventioneers", image: "/speakers/mohamed-soliman.png", bio: "Mohamed works with innovators to shape promising concepts into focused, executable ventures. At Ventioneers, he brings together commercial strategy, product thinking and the discipline needed to build for scale." },
+  { name: "Dr. Suleiman Furmli", title: "Investor + Physician", company: "", image: "/speakers/suleiman-furmli.jpg", bio: "Suleiman bridges the worlds of medicine and investment, bringing a clinician's insight to emerging opportunities. His perspective explores how capital, technology and care can align around better outcomes." },
+  { name: "Amin Jagani", title: "Managing Director", company: "HYGEIA", image: "/speakers/amin-jagani.jpg", bio: "Amin leads with a focus on health, innovation and purposeful growth. At HYGEIA, he brings an operator's view to building organizations that can respond to changing needs with clarity and conviction." },
+  { name: "Aaqib Azeem", title: "Global AI & ML Partner Lead", company: "Google", image: "/speakers/aaqib-azeem.jpeg", bio: "Aaqib works across the global AI and machine learning ecosystem at Google. He brings a practical perspective on partnership, adoption and what it takes to move advanced technology from possibility into real-world use." },
+  { name: "Minaz Merali", title: "VP, Z Cyber Security", company: "IBM", image: "/speakers/minaz-merali.jpeg", bio: "Minaz leads in the fast-moving field of enterprise cyber security at IBM. Her perspective connects technology, leadership and resilience as organizations prepare for increasingly complex digital threats." },
+  { name: "Zaeem Mirza", title: "Founder + Managing Partner", company: "Ummah1", image: "/speakers/Zaeem Mirza.png", bio: "Zaeem is a founder and investor focused on the people and ideas capable of creating meaningful economic impact. Through Ummah1, he brings a community-minded lens to entrepreneurship, capital and opportunity." },
+  { name: "Louise Pichette", title: "Director", company: "Health Sciences, MaRS Discovery District", image: "/speakers/Louise Pichette.jpg", bio: "Louise supports health sciences innovation at MaRS Discovery District. She brings an ecosystem perspective on helping researchers, founders and partners turn promising health ideas into solutions with real-world reach." },
 ];

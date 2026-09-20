@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import SpeakerGallery from "@/components/SpeakerGallery";
 import { speakers } from "@/components/speakerData";
 
 const REGISTER_URL = "https://www.eventbrite.ca/e/max-innovation-summit-tickets-1994514499559";
@@ -32,18 +32,7 @@ export default function SpeakersPage() {
 
       <section className="speaker-directory">
         <div className="wrap">
-          <div className="speaker-grid">
-            {speakers.map((speaker) => (
-              <article className="directory-card" key={speaker.name}>
-                <div className="directory-photo">
-                  <Image src={speaker.image} alt={speaker.name} fill sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 25vw" />
-                </div>
-                <h2>{speaker.name}</h2>
-                <p className="directory-role">{speaker.title}</p>
-                {speaker.company && <p className="directory-company">{speaker.company}</p>}
-              </article>
-            ))}
-          </div>
+          <SpeakerGallery speakers={speakers} />
         </div>
       </section>
       <footer>MAXPITCH INNOVATION SUMMIT 2026 · TORONTO</footer>
