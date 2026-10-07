@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MAXPitch Innovation Summit 2026",
+  title: "MAX Innovation Summit 2026",
   description:
     "Bringing together investors, founders, ecosystem supporters and subject matter experts to build the next frontier of innovation.",
   icons: {

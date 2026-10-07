@@ -24,7 +24,7 @@ export default function Home() {
       <nav>
         <div className="wrap">
           <div className="nav-mark">
-            MAX<span>Pitch</span> Innovation Summit
+            MAX Innovation Summit
           </div>
           <div className="nav-links">
             <a className="nav-link" href="/speakers">
@@ -68,7 +68,7 @@ export default function Home() {
           <Image
             className="hero-mark"
             src="/leaf-toronto.png"
-            alt="MAXPitch logo"
+            alt="MAX Innovation Summit logo"
             width={200}
             height={64}
             priority
@@ -89,7 +89,7 @@ export default function Home() {
           </p>
           <div className="hero-meta">
             <div className="meta-item">SAT, NOV 7</div>
-            <div className="meta-item">10 AM &ndash; 8 PM</div>
+            <div className="meta-item">9 AM &ndash; 9 PM</div>
             <div className="meta-item">Toronto</div>
           </div>
           <div className="hero-cta-row">
@@ -525,23 +525,23 @@ export default function Home() {
           <div className="wrap">
             <div className="section-head reveal">
               <h2>Full agenda</h2>
-              <span className="num">9:30 &ndash; 20:00</span>
+              <span className="num">9 AM &ndash; 9 PM</span>
             </div>
             <div className="timeline reveal">
               <div className="t-item">
-                <span className="t-time">9:30 AM</span>
+                <span className="t-time">9:00 &ndash; 9:30 AM</span>
                 <div className="t-body">
-                  <h4>Registration</h4>
+                  <h4>Registration + Breakfast</h4>
                 </div>
               </div>
               <div className="t-item">
-                <span className="t-time">10:00 &ndash; 10:30 AM</span>
+                <span className="t-time">9:00 &ndash; 9:30 AM</span>
                 <div className="t-body">
-                  <h4>Welcome and Opening Remarks</h4>
+                  <h4>Opening Remarks</h4>
                 </div>
               </div>
               <div className="t-item highlight">
-                <span className="t-time">10:30 &ndash; 11:00 AM</span>
+                <span className="t-time">9:30 &ndash; 10:20 AM</span>
                 <div className="t-body">
                   <h4>
                     Panel 1: Disruptive Frontiers, Beyond AI &amp;
@@ -550,7 +550,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="t-item highlight">
-                <span className="t-time">11:00 &ndash; 11:30 AM</span>
+                <span className="t-time">10:20 &ndash; 11:00 AM</span>
                 <div className="t-body">
                   <h4>
                     Panel 2: Physical Infrastructure, Energy, Materials
@@ -558,23 +558,32 @@ export default function Home() {
                   </h4>
                 </div>
               </div>
-              <div className="t-item">
-                <span className="t-time">11:30 AM &ndash; 12:30 PM</span>
+              <div className="t-item highlight">
+                <span className="t-time">11:00 AM &ndash; 12:00 PM</span>
                 <div className="t-body">
-                  <h4>Prayer Break + Lunch</h4>
+                  <h4>
+                    Fireside Chat - The Long View: What Public Markets Teach Us
+                    About Building Companies That Last.
+                  </h4>
+                </div>
+              </div>
+              <div className="t-item">
+                <span className="t-time">12:00 &ndash; 12:30 PM</span>
+                <div className="t-body">
+                  <h4>Lunch + Dhuhr Break</h4>
                 </div>
               </div>
               <div className="t-item highlight">
-                <span className="t-time">12:30 &ndash; 1:00 PM</span>
+                <span className="t-time">12:30 &ndash; 1:15 PM</span>
                 <div className="t-body">
                   <h4>
-                    Panel 3: Emerging Innovation, Space, Regulatory &amp;
+                    Panel 3: Emerging Innovation, Space, Cybersecurity &amp;
                     Sovereignty Technologies
                   </h4>
                 </div>
               </div>
               <div className="t-item highlight">
-                <span className="t-time">1:00 &ndash; 1:30 PM</span>
+                <span className="t-time">1:15 &ndash; 2:00 PM</span>
                 <div className="t-body">
                   <h4>
                     Panel 4: Beyond Healthtech, Biotech, Genetics and
@@ -583,44 +592,63 @@ export default function Home() {
                 </div>
               </div>
               <div className="t-item highlight">
-                <span className="t-time">1:45 &ndash; 3:30 PM</span>
+                <span className="t-time">2:00 &ndash; 3:00 PM</span>
                 <div className="t-body">
-                  <h4>Workshop Sessions</h4>
+                  <h4>Fireside Chat: Building A Canada That Wins</h4>
+                </div>
+              </div>
+              <div className="t-item">
+                <span className="t-time">3:00 &ndash; 3:30 PM</span>
+                <div className="t-body">
+                  <h4>Asr Break</h4>
+                </div>
+              </div>
+              <div className="t-item highlight">
+                <span className="t-time">3:30 &ndash; 5:00 PM</span>
+                <div className="t-body">
+                  <h4>Workshops (In-Parallel)</h4>
                   <div className="t-sub">
-                    <div>The Angel Investing Playbook</div>
-                    <div>The AI Builder Lab (Claude and Replit)</div>
-                    <div>Behind the Term Sheet</div>
+                    <div>Workshop 1: The Angel Investing Playbook</div>
+                    <div>
+                      Workshop 2: The AI Builder Lab (feat. Claude and Replit)
+                    </div>
+                    <div>
+                      Workshop 3: Real Lessons from Building Great Companies
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="t-item">
-                <span className="t-time">3:30 &ndash; 4:00 PM</span>
+                <span className="t-time">5:00 &ndash; 5:20 PM</span>
                 <div className="t-body">
-                  <h4>Prayer Break</h4>
+                  <h4>Maghrib Break</h4>
                 </div>
               </div>
               <div className="t-item highlight">
-                <span className="t-time">4:00 &ndash; 4:30 PM</span>
+                <span className="t-time">5:20 &ndash; 6:15 PM</span>
                 <div className="t-body">
-                  <h4>Fireside Chat: Collectively Building the Future</h4>
+                  <h4>
+                    Closing Fireside Chat: Backing Bold Ideas: A Conversation
+                    on Conviction, Capital and the Courage to Shape the Frontier
+                  </h4>
                 </div>
               </div>
               <div className="t-item highlight">
-                <span className="t-time">4:30 &ndash; 5:45 PM</span>
+                <span className="t-time">6:15 &ndash; 7:15 PM</span>
                 <div className="t-body">
-                  <h4>Lightning Round Pitches: Founders in Action</h4>
+                  <h4>Lightning Round</h4>
                 </div>
               </div>
               <div className="t-item">
-                <span className="t-time">5:45 &ndash; 6:00 PM</span>
+                <span className="t-time">7:15 &ndash; 7:30 PM</span>
                 <div className="t-body">
-                  <h4>Closing Remarks</h4>
+                  <h4>Closing Remarks - MAX</h4>
                 </div>
               </div>
               <div className="t-item">
-                <span className="t-time">6:00 &ndash; 8:00 PM</span>
+                <span className="t-time">7:30 &ndash; 9:00 PM</span>
                 <div className="t-body">
-                  <h4>Open Networking + Dinner</h4>
+                  <h4>Dinner + Open Networking</h4>
                 </div>
               </div>
             </div>
@@ -655,10 +683,10 @@ export default function Home() {
       </section>
 
       <footer style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "12px" }}>
-        MAXPITCH INNOVATION SUMMIT · 2026 · TORONTO ·
+        MAX INNOVATION SUMMIT · 2026 · TORONTO ·
         <Image
           src="/hero-mark.png"
-          alt="MAXPitch"
+          alt="MAX Innovation Summit"
           width={80}
           height={20}
           style={{ height: "18px", width: "auto" }}

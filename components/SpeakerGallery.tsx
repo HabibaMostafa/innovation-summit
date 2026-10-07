@@ -109,6 +109,7 @@ export default function SpeakerGallery({ speakers }: SpeakerGalleryProps) {
                 <h2 id="speaker-modal-name">{activeSpeaker.name}</h2>
                 <p className="speaker-modal-role">{activeSpeaker.title}{activeSpeaker.company && <><span> · </span>{activeSpeaker.company}</>}</p>
                 <p className="speaker-modal-copy">{activeSpeaker.bio}</p>
+                <span className="speaker-modal-bio-spacer" aria-hidden="true" />
               </div>
             </div>
             <span className="speaker-modal-count">{String(activeIndex + 1).padStart(2, "0")} / {String(speakers.length).padStart(2, "0")}</span>

@@ -13,7 +13,7 @@ export default function SpeakersPage() {
       </div>
       <nav>
         <div className="wrap">
-          <Link className="nav-mark" href="/">MAX<span>Pitch</span> Innovation Summit</Link>
+          <Link className="nav-mark" href="/">MAX Innovation Summit</Link>
           <div className="nav-links">
             <Link className="nav-link active" href="/speakers">Speakers</Link>
             <a className="nav-cta" href={REGISTER_URL} target="_blank" rel="noopener noreferrer">Reserve a seat</a>
@@ -35,7 +35,7 @@ export default function SpeakersPage() {
           <SpeakerGallery speakers={speakers} />
         </div>
       </section>
-      <footer>MAXPITCH INNOVATION SUMMIT 2026 · TORONTO</footer>
+      <footer>MAX INNOVATION SUMMIT 2026 · TORONTO</footer>
     </main>
   );
 }
